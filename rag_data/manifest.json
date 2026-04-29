@@ -1,0 +1,27 @@
+{
+  "created_at": "2026-03-24T20:45:52.336289+00:00",
+  "total_docs": 999,
+  "files": {
+    "tier1_rada.jsonl": 0,
+    "tier2_international.jsonl": 30,
+    "tier3_think_tanks.jsonl": 20,
+    "tier4_ua_think_tanks.jsonl": 20,
+    "tier5_media.jsonl": 143,
+    "tier6_factcheck.jsonl": 20,
+    "tier7_academic.jsonl": 144,
+    "tier8_wikipedia_en.jsonl": 98,
+    "tier8_wikipedia_uk.jsonl": 524
+  },
+  "schema": {
+    "id": "md5 hash of url/title",
+    "source": "source name",
+    "tier": "1–8 per trust hierarchy",
+    "url": "original url",
+    "title": "document title",
+    "text": "plain text, max 7–8k chars",
+    "date": "YYYY-MM-DD or year string",
+    "topic": "best-matching topic from topics_us.txt",
+    "lang": "uk or en"
+  },
+  "patched_at": "2026-03-24T22:29:15.659395+00:00"
+}

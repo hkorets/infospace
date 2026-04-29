@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "InfoSpace Verifier",
+  "version": "1.0",
+  "description": "Verify political claims against Ukrainian information space knowledge base",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "permissions": [],
+  "host_permissions": [
+    "http://localhost:8000/*",
+    "https://*.hf.space/*"
+  ]
+}
